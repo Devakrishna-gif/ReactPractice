@@ -1,7 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
-const heading = React.createElement('h1', {}, "Without CDN Links")
+const heading = <h1 className="heading">JSX Heading</h1>
+
+const FunctionalComponentHeading = () => {
+    return (<div className="container">
+        {heading}
+        <h2>Functional Component Heading</h2>
+    </div>)
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(heading);
+root.render(<FunctionalComponentHeading />);
