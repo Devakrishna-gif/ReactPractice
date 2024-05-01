@@ -15,3 +15,19 @@
 - Good Error suggestions
 - Tree Shaking -> remove unused code
 - Different dev and prod bundle
+
+# Food Ordering App
+- Header
+    - Logo
+    - Nav Items
+- Body
+    - Search
+    - Resturant Container
+        - ResturantCard
+            - Img
+            - Name of Resturant, Rating, Cuisine, delivery time
+- Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
