@@ -31,3 +31,8 @@
     - Links
     - Address
     - Contact
+
+# Never ever keep the hard coded data, image URL in the component file.
+- Reason -> The data or image url can be reused again in our application.
+
+# Good Habit to specify all the constant URLS in a capital letters and snake case.
